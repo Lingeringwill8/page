@@ -1,9 +1,53 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architect's Portfolio</title>
+    <link rel="stylesheet" href="./Resources/CSS/styles.css">
+</head>
 <body>
-  <h1>YOUR NAME</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+      <div class="logo_title">
+        <img class="logo" src="./Resources/Images/logo.jpg" alt="company_logo">
+        <h1>Architect Name</h1>
+      </div>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="front_container">
+            <h1>Innovative Design Solutions</h1>
+            <p>Transforming dreams into blueprints, and visions into reality. Welcome to a world where innovation meets
+                architectural elegance, where every space tells a story of creativity and functionality.</p>
+        </div>
+    </div>
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <p>Explore our portfolio of recent works.</p>
+        <!-- Add project images and descriptions here -->
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our philosophy and team.</p>
+        <!-- Add more detailed information about the firm or the architect -->
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>Copyright © 2023 Architect Name</p>
+    </footer>
 </body>
-
 </html>
