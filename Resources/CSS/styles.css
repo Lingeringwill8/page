@@ -196,4 +196,9 @@ form{
     .front_container{
         min-width: 85%;
     }
+    .about_container div{
+        width: 80%; 
+        color: white;
+        margin-top: 20px;
+    }
 }
